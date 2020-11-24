@@ -1,0 +1,84 @@
+
+body {
+    background: #555;
+}
+
+.content {
+    max-width: 744px;
+    margin: auto;
+    background: #e6e6e6;
+    padding: 10px;
+    font-family: serif;
+}
+
+h3{
+    color: #003399;
+    text-shadow: 1px 1px 16px #cc00cc;
+    font-size: 28px;
+}
+
+.button {
+    background-color: #0066ff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+    top: -250px;
+    left: 600px;
+}
+
+.button1 {
+    background-color: transparent; /* Green */
+    border: none;
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.button2 {
+    background-color: #0066ff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+    top: -50px;
+    left: 600px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr, td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+td h2 {
+    background-color: #4CAF50;
+    color: white;
+}
